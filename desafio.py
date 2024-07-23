@@ -1,34 +1,26 @@
-# Bonus constante
 
-constante_bonus = 1000
 
-# 1) Solicite ao usuário que digite seu nome
+bonus_constante = 1000
 
-nome_usuario = input("Digite seu nome: ")
+# 1) Solicita ao usuário que digite seu nome
 
-# 2) Solicite ao usuário que digite o valor do seu salário
-# Converte a entrada para um número de ponto flutuante
+nome_usuario = input("Digite o seu nome: ")
 
-salario_usuario = float(input("Digite o valor do seu salário: "))
+# 2) Solicita ao usuário que digite o valor do seu salário
 
-# 3) Solicite ao usuário que digite o valor do bônus recebido 
-# Converte a entrada para um número de ponto flutuante
+salario = float(input("Digite seu salário: "))
 
-bonus_usuario = float(input("Digite o valor do bônus recebido: "))
+# 3) Solicita ao usuário que digite o valor do bônus recebido
+
+valor_bonus = float(input("Digite o valor do seu bonus: "))
 
 # 4) Calcule o valor do bônus final
 
-valor_do_bonus = constante_bonus + salario_usuario * bonus_usuario
+bonus_valor = bonus_constante + salario * valor_bonus
 
+# 5) Imprime a mensagem personalizada incluindo o nome do usuário e o valor do bonus
 
-# 5) Imprime a mensagem personalizada incluindo o nome de usuário , sálario e bônus
-# f quando for ter variáveis
+print(f"{nome_usuario}, o valor do seu bonus é de {bonus_valor}")
 
-print(f"O usuário {nome_usuario} possui o bonus de {valor_do_bonus}")
-
-# Bônus: quantos bugs e riscos você consegue identificar nesse programa?
-
-
-
-
+# Bônus: Quantos bugs e riscos você consegue identificar nesse programa?
 
